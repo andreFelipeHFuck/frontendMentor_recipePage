@@ -1,0 +1,22 @@
+.instructions__item{
+    line-height: 25px;
+    list-style-position: outside;
+    margin-bottom: 1em;
+    margin-right: 0;
+    padding-left: 1em;
+}
+
+.instructions__item::marker{
+    color: var(--nutmeg);
+    font-weight: 600;
+}
+
+.instructions__item:last-child{
+    margin-bottom: 0;
+    padding-right: 1em;
+}
+
+.instructions__item--bold{
+    color: var(--dark-charcoal);
+    font-weight: 600;
+}

@@ -1,0 +1,71 @@
+@import url(./container.css);
+
+@import url(./recipe-image.css);
+
+@import url(./recipe/recipe.css);
+@import url(./recipe/recipe-title.css);
+@import url(./recipe/recipe-text.css);
+
+@import url(./preparationTime/preparationTime.css);
+@import url(./preparationTime/preparationTime-title.css);
+@import url(./preparationTime/preparationTime-item.css);
+
+@import url(./li-alien-center.css);
+
+@import url(./ingredients/ingredients.css);
+@import url(./ingredients/ingredients-title.css);
+@import url(./ingredients/ingredients-item.css);
+
+@import url(./linha.css);
+
+@import url(./instructions/instructions.css);
+@import url(./instructions/instructions-title.css);
+@import url(./instructions/instructions-item.css);
+
+@import url(./nutrion/nutrion-title.css);
+@import url(./nutrion/nutrion-text.css);
+@import url(./nutrion/nutrion-table.css);
+@import url(./nutrion/nutrion-tr.css);
+@import url(./nutrion/nutrion-peso.css);
+
+@font-face {
+    font-family: Young-Serif;
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: local(Outfit) url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+:root{
+    /* Primary */
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+
+    /* Neutral */
+    --white: hsl(330, 100%, 98%);
+    --rose-white: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+    /* Font */
+    --main-font: "Outfit", sans-serif;
+    --second-font: Young-Serif;
+}
+
+body{
+    align-items: center; 
+    color: var(--wenge-brown);
+    display: flex;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center; 
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        background-color: var(--white);
+    }
+}

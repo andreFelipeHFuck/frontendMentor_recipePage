@@ -1,0 +1,21 @@
+.preparation-time__item{
+    line-height: 25px;
+    list-style-position: outside;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    padding-left: 1.5em;
+}
+
+.preparation-time__item::marker{
+    color: var(--nutmeg); 
+}
+
+.preparation-time__item:last-child{
+    margin-bottom: 0;
+    padding-right: 1em;
+}
+
+.preparation-time__item--bold{
+    color: var(--dark-charcoal);
+    font-weight: 600;
+}

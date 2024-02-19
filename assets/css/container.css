@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px){
+    .container{
+        background-color: white;
+        border-radius: 20px;
+        color: var(--dark-charcoal);
+        margin: 10em 0;
+        padding: 3em;
+        width: 50%;
+    }
+}

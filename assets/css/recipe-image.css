@@ -1,0 +1,9 @@
+.recipe-image{
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .recipe-image{
+        border-radius: 20px;
+    }
+}
