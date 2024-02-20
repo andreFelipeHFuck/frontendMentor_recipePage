@@ -46,6 +46,8 @@
     /* Neutral */
     --white: hsl(330, 100%, 98%);
     --rose-white: hsl(30, 18%, 87%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
     --wenge-brown: hsl(30, 10%, 34%);
     --dark-charcoal: hsl(24, 5%, 18%);
 
@@ -66,6 +68,6 @@ body{
 
 @media screen and (min-width: 1024px){
     body{
-        background-color: var(--white);
+        background-color: var(--eggshell);
     }
 }
